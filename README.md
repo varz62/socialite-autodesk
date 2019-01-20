@@ -2,7 +2,7 @@
 
 ### 1. Installation
 
-`composer require varz62/socialite-autodesk`
+`composer require vavprog/socialite-autodesk`
 
 ### 2. Service Provider
 
@@ -25,7 +25,7 @@ For example:
 
 * Add your listeners (i.e. the ones from the providers) to the `SocialiteProviders\Manager\SocialiteWasCalled[]` that you just created.
 
-* The listener that you add for this provider is `Varz62\SocialiteProviders\Autodesk\AutodeskExtendSocialite::class`.
+* The listener that you add for this provider is `Vavprog\SocialiteProviders\Autodesk\AutodeskExtendSocialite::class`.
 
 * Note: You do not need to add anything for the built-in socialite providers unless you override them with your own providers.
 
@@ -38,7 +38,7 @@ For example:
  */
 protected $listen = [
     SocialiteProviders\Manager\SocialiteWasCalled::class => [
-        Varz62\SocialiteProviders\Autodesk\AutodeskExtendSocialite::class
+        Vavprog\SocialiteProviders\Autodesk\AutodeskExtendSocialite::class
     ],
 ];
 ```
