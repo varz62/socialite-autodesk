@@ -1,11 +1,11 @@
 {
-    "name": "varz62/socialite-autodesk",
+    "name": "vavprog/socialite-autodesk",
     "description": "Autodesk OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [
         {
             "name": "Anatol",
-            "email": "varz62@gmail.com"
+            "email": "vavprog@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Varz62\\SocialiteProviders\\Autodesk\\": "src/"
+            "Vavprog\\SocialiteProviders\\Autodesk\\": "src/"
         }
     }
 }
